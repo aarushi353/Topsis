@@ -19,6 +19,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
+    url="https://github.com/aarushi353/Topsis",
     packages=find_packages(),
     install_requires=[],
     classifiers=[
