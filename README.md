@@ -25,17 +25,6 @@ and greatest distance from the negative-ideal solution.
 
 <br>
 
-## How to install this package:
-
-```
->> pip install topsis-102003527
-```
-
-### In Command Prompt
-
-```
->> topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
-```
 ## License
 © 2022 Aarushi Abrol
 
