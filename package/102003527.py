@@ -97,6 +97,7 @@ def topsis_pipy(temp_dataset, dataset, nCol, weights, impact):
     p_sln, n_sln = Calc_Values(temp_dataset, nCol, impact)
 
     # calculating topsis score
+    # print(" Generating Score and Rank...\n")
     score = []
     for i in range(len(temp_dataset)):
         temp_p, temp_n = 0, 0
@@ -113,6 +114,7 @@ def topsis_pipy(temp_dataset, dataset, nCol, weights, impact):
     dataset = dataset.astype({"Rank": int})
 
     # Writing the csv
+    # print(" Writing Result to CSV...\n")
     dataset.to_csv(sys.argv[4], index=False)
     # print(" Successfully Terminated")
 

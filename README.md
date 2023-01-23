@@ -6,7 +6,7 @@ Type: **Package**.
 
 Title: **TOPSIS method for multiple-criteria decision making (MCDM)**.
 
-Version: **1.1.0**
+Version: **1.1.1**
 
 Date: **2022-1-22**
 
@@ -28,7 +28,7 @@ and greatest distance from the negative-ideal solution.
 ## How to install this package:
 
 ```
->> pip install 
+>> pip install topsis-102003527
 ```
 
 ### In Command Prompt
