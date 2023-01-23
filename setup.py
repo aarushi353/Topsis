@@ -12,7 +12,7 @@ DESCRIPTION = 'It evaluates alternatives based on multiple criteria using TOPSIS
 
 # Setting up
 setup(
-    name="topsis-102003527",
+    name="topsis-Aarushi-102003527",
     version=VERSION,
     author="Aarushi Abrol",
     author_email="<aabrol_be20@thapar.edu>",
